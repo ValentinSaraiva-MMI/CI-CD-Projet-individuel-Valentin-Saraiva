@@ -5,9 +5,24 @@
   </main>
 </template>
 
-<script setup></script>
+<script setup>
+/**
+ * Ce composant représente un champ de saisie permettant à l'utilisateur de saisir un nom.
+ * Il impose des contraintes de longueur (minimum 4, maximum 8 caractères) et nécessite une saisie.
+ *
+ * @component
+ * @example
+ * <NameInput />
+ */
+</script>
 
 <style>
+/**
+ * Style principal du composant.
+ * Ce style permet de définir une hauteur de 100% de la vue pour le conteneur principal.
+ * 
+ * @type {string}
+ */
 main {
   height: 100vh;
 }
